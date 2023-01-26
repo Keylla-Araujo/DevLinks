@@ -8,7 +8,7 @@ function toggleMode() {
   html.classList.toggle("light")
 
   // pegar a tag img
-  const img = document.getElementById("img-avatar")
+  const img = document.getElementById("profile")
 
   // substituir a imagem
   if (html.classList.contains("light")) {
